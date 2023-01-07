@@ -1,6 +1,5 @@
 import Head from "next/head";
 import Hero from "../components/Hero";
-import Nav from "../components/Nav";
 
 export default function Home() {
   return (
@@ -9,7 +8,6 @@ export default function Home() {
         <title>Fake Furnitures Api</title>
       </Head>
       <main>
-        <Nav />
         <Hero />
       </main>
     </>

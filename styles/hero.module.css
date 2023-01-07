@@ -47,6 +47,7 @@
   padding: 0.75rem;
   background-color: #2d2827;
   margin-bottom: 0.5rem;
+  cursor: pointer;
 }
 
 .img__container {
