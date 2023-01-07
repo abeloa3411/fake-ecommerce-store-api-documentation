@@ -1,0 +1,40 @@
+.nav__container {
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.nav__inner__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  height: 100px;
+  min-width: 100%;
+}
+
+.logo {
+  font-size: 40px;
+  flex: 1;
+}
+
+.nav__menu {
+  width: 60%;
+}
+
+.nav__menu__items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 4rem;
+}
+
+.nav__menu__item {
+  margin-right: 3rem;
+  list-style: none;
+}
+
+.a {
+  text-decoration: none;
+  color: black;
+}
