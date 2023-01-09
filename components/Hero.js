@@ -57,14 +57,11 @@ export default function Hero() {
                 <span>20 products</span>
               </li>
               <li>
-                <a href="/carts">Cart</a>20 cart item
-              </li>
-              <li>
                 <a href="/users">Users</a>10 users
               </li>
               <li>
                 <a href="">Login Token</a>
-                <span className="badge">New!</span>
+                <span className="badge">A login tokenn</span>
               </li>
             </ul>
           </div>

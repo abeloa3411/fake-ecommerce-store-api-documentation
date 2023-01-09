@@ -11,7 +11,7 @@ data containing furnitures. You can use it in your projects and enjoy it
 ### get all products
 
 ```js
-fetch("") //url to be posted soon
+fetch("https://fakeecommerceapi.onrender.com/api/v1/products")
   .then((res) => res.json())
   .then((json) => console.log(json));
 ```
@@ -19,7 +19,7 @@ fetch("") //url to be posted soon
 ### get a single product
 
 ```js
-fetch("") //url to be posted soon
+fetch("https://fakeecommerceapi.onrender.com/api/v1/products/:id")
   .then((res) => res.json())
   .then((json) => console.log(json));
 ```
@@ -27,8 +27,7 @@ fetch("") //url to be posted soon
 ### Upload a product
 
 ```js
-fetch("", {
-  //url to be posted soon
+fetch("https://fakeecommerceapi.onrender.com/api/v1/products/:id", {
   method: "POST",
   body: JSON.stringify({
     name: "new product",
@@ -55,8 +54,7 @@ fetch("", {
 ### delete a product
 
 ```js
-fetch("", {
-  //url to be posted
+fetch("https://fakeecommerceapi.onrender.com/api/v1/products", {
   method: "DELETE",
 });
 
@@ -77,9 +75,7 @@ the response
 ### update a product
 
 ```js
-fetch("", {
-  //url to be posted
-
+fetch("https://fakeecommerceapi.onrender.com/api/v1/products", {
   method: "PUT",
   body: JSON.stringify({
     title: "updated product",
