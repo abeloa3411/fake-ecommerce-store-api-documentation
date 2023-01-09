@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 import img1 from "../public/banner.png";
 import styles from "../styles/hero.module.css";
@@ -15,7 +16,8 @@ export default function Hero() {
               </div>
               <div className={styles.paragraph}>
                 <p>
-                  The fake ecommerce api api for your ecommerce and for testing
+                  The fake ecommerce api for your ecommerce, teaching and
+                  testing purposes
                 </p>
               </div>
               <div className={styles.btn__container}>
@@ -45,6 +47,73 @@ export default function Hero() {
                 free to contribute and alert incase of any errors
               </p>
             </div>
+          </div>
+          <div className={styles.resources}>
+            <h2 className={styles.resources__heading}>Resources</h2>
+            <p>There are 4 main resources need in shopping prototypes</p>
+            <ul className={styles.resources__list}>
+              <li>
+                <a href="/products">Products</a>
+                <span>20 products</span>
+              </li>
+              <li>
+                <a href="/carts">Cart</a>20 cart item
+              </li>
+              <li>
+                <a href="/users">Users</a>10 users
+              </li>
+              <li>
+                <a href="">Login Token</a>
+                <span className="badge">New!</span>
+              </li>
+            </ul>
+          </div>
+          <div className={styles.routes}>
+            <h2 className={styles.resources__heading}>Routes</h2>
+            <p>All HTTP methods are supported</p>
+            <ul className={styles.resources__list}>
+              <li>
+                <span>GET</span>
+                <a href="/products">/products</a>
+              </li>
+              <li>
+                <span>GET</span>
+                <a href="/products/1">/products/1</a>
+              </li>
+              <li>
+                <span>GET</span>
+                <a href="/products/categories">/products/categories</a>
+              </li>
+              <li>
+                <span>GET</span>
+                <a href="/products/category/jewelery">
+                  /products/category/jewelery
+                </a>
+              </li>
+              <li>
+                <span>GET</span>
+                <a href="/cart?userId=1">/cart?userId=1</a>
+              </li>
+              <li>
+                <span>GET</span>
+                <a href="/products?limit=5">/products?limit=5</a>
+              </li>
+              <li>
+                <span>POST</span>/products
+              </li>
+              <li>
+                <span>PUT</span>/products/1
+              </li>
+              <li>
+                <span>PATCH</span>/products/1
+              </li>
+              <li>
+                <span>DELETE</span>/products/1
+              </li>
+            </ul>
+            <Link href="/docs" className={styles.resources__btn}>
+              View Details on Docs
+            </Link>
           </div>
         </div>
       </div>
