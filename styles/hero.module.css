@@ -40,13 +40,17 @@
   margin-top: 1rem;
 }
 
+.btn__inner {
+  margin-bottom: 1rem;
+}
+
 .btn {
   color: white;
   font-weight: bolder;
   border: solid 2px red;
   padding: 0.75rem;
   background-color: #2d2827;
-  margin-bottom: 0.5rem;
+  text-decoration: none;
   cursor: pointer;
 }
 
@@ -108,4 +112,14 @@
   cursor: pointer;
   width: 25%;
   margin-top: 1rem;
+}
+
+@media screen and (max-width: 768px) {
+  .intro {
+    flex-direction: column;
+  }
+
+  .intro__title {
+    width: 100%;
+  }
 }

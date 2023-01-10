@@ -21,11 +21,15 @@ export default function Hero() {
                 </p>
               </div>
               <div className={styles.btn__container}>
-                <div>
-                  <button className={styles.btn}>Github</button>
+                <div className={styles.btn__inner}>
+                  <a href="https://www.github.com/abeloa3411">
+                    <button className={styles.btn}>github</button>
+                  </a>
                 </div>
                 <div>
-                  <button className={styles.btn}>Read docs</button>
+                  <Link href="/docs">
+                    <button className={styles.btn}>Read docs</button>
+                  </Link>
                 </div>
               </div>
             </div>

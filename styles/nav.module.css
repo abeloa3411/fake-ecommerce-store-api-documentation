@@ -18,6 +18,10 @@
   flex: 1;
 }
 
+.logo__link {
+  text-decoration: none;
+}
+
 .nav__menu {
   width: 60%;
 }

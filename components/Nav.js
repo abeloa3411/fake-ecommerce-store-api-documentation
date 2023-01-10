@@ -7,7 +7,7 @@ function Nav() {
     <div className={styles.nav__container}>
       <div className={styles.nav__inner__container}>
         <div className={styles.logo}>
-          <Link href="/">
+          <Link href="/" className={styles.logo__link}>
             <AiOutlineCode />
           </Link>
         </div>
