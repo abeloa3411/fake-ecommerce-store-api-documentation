@@ -54,7 +54,7 @@ fetch("https://fakeecommerceapi.onrender.com/api/v1/products/:id", {
 ### delete a product
 
 ```js
-fetch("https://fakeecommerceapi.onrender.com/api/v1/products", {
+fetch("https://fakeecommerceapi.onrender.com/api/v1/products/:id", {
   method: "DELETE",
 });
 
@@ -75,7 +75,7 @@ the response
 ### update a product
 
 ```js
-fetch("https://fakeecommerceapi.onrender.com/api/v1/products", {
+fetch("https://fakeecommerceapi.onrender.com/api/v1/products/:id", {
   method: "PUT",
   body: JSON.stringify({
     title: "updated product",
@@ -141,6 +141,8 @@ DELETE
 /products/:id
 
 #### User
+
+currently un available
 
 ```js
 

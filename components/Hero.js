@@ -57,10 +57,10 @@ export default function Hero() {
                 <span>20 products</span>
               </li>
               <li>
-                <a href="/users">Users</a>10 users
+                <a href="/users">Users</a>20 users
               </li>
               <li>
-                <a href="">Login Token</a>
+                <a href="">Auth</a>
                 <span className="badge">A login tokenn</span>
               </li>
             </ul>
@@ -75,7 +75,7 @@ export default function Hero() {
               </li>
               <li>
                 <span>GET</span>
-                <a href="/products/1">/products/1</a>
+                <a href="/products/1">/products/:id</a>
               </li>
               <li>
                 <span>GET</span>
@@ -88,24 +88,16 @@ export default function Hero() {
                 </a>
               </li>
               <li>
-                <span>GET</span>
-                <a href="/cart?userId=1">/cart?userId=1</a>
-              </li>
-              <li>
-                <span>GET</span>
-                <a href="/products?limit=5">/products?limit=5</a>
-              </li>
-              <li>
                 <span>POST</span>/products
               </li>
               <li>
-                <span>PUT</span>/products/1
+                <span>PUT</span>/products/:id
               </li>
               <li>
-                <span>PATCH</span>/products/1
+                <span>PATCH</span>/products/:id
               </li>
               <li>
-                <span>DELETE</span>/products/1
+                <span>DELETE</span>/products/:id
               </li>
             </ul>
             <Link href="/docs" className={styles.resources__btn}>
