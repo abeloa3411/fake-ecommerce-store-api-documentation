@@ -1,5 +1,6 @@
 .hero__container {
   width: 100%;
+  margin: 2rem 0;
 }
 
 .hero__inner__container {
@@ -66,8 +67,9 @@
 
 .lorem {
   text-align: center;
-  height: 30vh;
+  padding: 1rem;
   line-height: 1.6;
+  margin-bottom: 2rem;
 }
 
 .heading {

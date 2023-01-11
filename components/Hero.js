@@ -34,7 +34,7 @@ export default function Hero() {
               </div>
             </div>
             <div className={styles.image__container}>
-              <Image src={img1} className={styles.img} />
+              <Image src={img1} className={styles.img} alt="banner" />
             </div>
           </div>
           <div className={styles.lorem}>

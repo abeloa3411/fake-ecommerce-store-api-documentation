@@ -10,6 +10,7 @@
   align-items: center;
   margin: 0 auto;
   height: 100px;
+  padding: 0 2rem;
   min-width: 100%;
 }
 
@@ -41,4 +42,17 @@
 .a {
   text-decoration: none;
   color: black;
+}
+
+.bars {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .nav__menu {
+    display: none;
+  }
+  .bars {
+    display: block;
+  }
 }

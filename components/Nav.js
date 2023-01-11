@@ -1,8 +1,9 @@
 import Link from "next/link";
 import { AiOutlineCode } from "react-icons/ai";
+import { FaBars } from "react-icons/fa";
 import styles from "../styles/nav.module.css";
 
-function Nav() {
+function Nav({ toggle }) {
   return (
     <div className={styles.nav__container}>
       <div className={styles.nav__inner__container}>
@@ -45,6 +46,9 @@ function Nav() {
             </li>
           </ul>
         </nav>
+        <div className={styles.bars} onClick={toggle}>
+          <FaBars />
+        </div>
       </div>
     </div>
   );
